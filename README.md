@@ -85,20 +85,26 @@ Finally Open a new command prompt and start the consumer which listens to the to
 
 ## View
 
-**Service_Registry:**
+
+- **Service_Registry:**
 ![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\ServRegi#1.png?raw=true "Optional Title")
 ![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\ServRegi#2.png?raw=true "Optional Title")
-**Cloud_Registry:**
-![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\CloudRegi#1.png?raw=true "Optional Title")
-**BookCatalog_Service:**
-![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\BookCat#1.png?raw=true "Optional Title")
-**After Run Zookeeper & Kafka**
 
-**Post the new Book from Postman:**
+- **Cloud_Registry:**
+![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\CloudRegi#1.png?raw=true "Optional Title")
+
+- **BookCatalog_Service:**
+![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\BookCat#1.png?raw=true "Optional Title")
+
+- **After Run Zookeeper & Kafka**
+
+- **Post the new Book from Postman:**
 ![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\PostMan#1.png?raw=true "Optional Title")
-**We will get the message we had sent using the producer**
+
+- **We will get the message we had sent using the producer**
 ![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\Kafka#1.png?raw=true "Optional Title")
-**Verify in MySql:**
+
+- **Verify in MySql:**
 ![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\MySql#1.png?raw=true "Optional Title")
 
 ## Contributors
