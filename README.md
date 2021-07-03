@@ -61,16 +61,20 @@ Rest APIs endpoints used in postman:
 **Kafka:**
 
 To run ZooKepper:
-C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
-To start the Apache Kafka-
-C:\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
+    C:\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+To start the Apache Kafka:
+
+    C:\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
 
 To create a topic with name javatopic, that has only one partition & one replica.
-C:\kafka>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic javatopic
+
+    C:\kafka>.\bin\windows\kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic javatopic
 
 Finally Open a new command prompt and start the consumer which listens to the topic javatopic we just created above. We will get the message we had sent using the producer
-C:\kafka>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic javatopic --from-beginning
+
+    C:\kafka>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic javatopic --from-beginning
 
 **Microservices:**
 
