@@ -77,6 +77,8 @@ C:\kafka>.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9
 - Considering bookcatalog is a just single microservice and registered the same in service-registry.
 - Built Api Cloud-Gateway to route user requests to the microservices(here it is bookcatalog).
 
+![Alt text](C:\Users\Lenovo\Desktop\TCS\ImagesforReadMe\MSArch.png?raw=true "Optional Title")
+
 ## View
 
 **Service_Registry:**
