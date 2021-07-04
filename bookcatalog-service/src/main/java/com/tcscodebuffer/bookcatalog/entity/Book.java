@@ -1,10 +1,14 @@
 package com.tcscodebuffer.bookcatalog.entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,6 +27,9 @@ public class Book {
 	private String title;
 	private String authname;
 	private String isbn;
+	
+	@JsonFormat(pattern="DD-MM-YYYY", shape = Shape.STRING)
+	@Column(name="pubdate")
 	private String pubdate;
 	
 	public int getTitleid() {
